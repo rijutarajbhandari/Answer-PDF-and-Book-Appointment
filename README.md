@@ -39,15 +39,15 @@ streamlit run app.py
 
 ## How to Use
 - Upload PDFs
-   a.Go to the sidebar
-   b.Click “Upload your PDF Files”
-   c.Select one or more PDFs and click Submit & Process
-   d.Text and tables are extracted and vectorized automatically
+   - Go to the sidebar
+   - Click “Upload your PDF Files”
+   - Select one or more PDFs and click Submit & Process
+   -Text and tables are extracted and vectorized automatically
 - Ask Questions
 - Book an Appointment
-  a.Ask: “Schedule an appointment" or "Book an appointment in 3 days"
-  b.Fill the form
-  c.The chatbot confirms the extracted information
+  - Ask: “Schedule an appointment" or "Book an appointment in 3 days"
+  - Fill the form
+  - The chatbot confirms the extracted information
 
 
 
