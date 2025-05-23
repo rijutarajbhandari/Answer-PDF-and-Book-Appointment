@@ -1,1 +1,56 @@
 # Answer-PDF-and-Book-Appointment
+This is a Streamlit-based application that allows users to upload PDF files, ask questions based on the document content, and optionally book an appointment using a conversational form powered by LangChain and Gemini (Google Generative AI).
+
+ ## Features
+
+- 📄 Upload multiple PDFs and extract both text and tables
+- 🧠 Embedding with Google Generative AI + FAISS vector store
+- 💬 Ask natural language questions about the uploaded documents
+- 📅 Conversational appointment form:
+  - Name, Phone Number, Email
+  - Smart date parsing (e.g., “in 3 days” → `YYYY-MM-DD`)
+  - Input validation (email, phone)
+- 🔌 Tool-agent integration for dynamic form completion
+
+  ## Tech Stack
+
+- [Streamlit](https://streamlit.io/)
+- [LangChain](https://www.langchain.com/)
+- [Gemini (Google Generative AI)](https://makersuite.google.com/)
+- [FAISS](https://github.com/facebookresearch/faiss)
+- [PyPDF2](https://github.com/py-pdf/PyPDF2)
+- [dateparser](https://github.com/scrapinghub/dateparser)
+- [Tabula-py](https://github.com/chezou/tabula-py)
+
+  ## Installation
+git clone https://github.com/yourusername/chat-with-pdf.git
+cd chat-with-pdf
+
+
+## Install dependencies
+pip install -r requirements.txt
+
+## Setup Environment Variables
+Create a .env file in the root directory and add your Google API Key:
+GOOGLE_API_KEY=your_google_api_key_here
+
+## Running the App
+streamlit run app.py
+
+## How to Use
+1. Upload PDFs
+   a.Go to the sidebar
+   b.Click “Upload your PDF Files”
+   c.Select one or more PDFs and click Submit & Process
+   d.Text and tables are extracted and vectorized automatically
+2.Ask Questions
+3.Book an Appointment
+  a.Ask: “Schedule an appointment" or "Book an appointment in 3 days"
+  b.Fill the form
+  c.The chatbot confirms the extracted information
+
+
+
+
+
+
