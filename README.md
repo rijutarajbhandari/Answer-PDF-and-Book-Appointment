@@ -23,7 +23,7 @@ This is a Streamlit-based application that allows users to upload PDF files, ask
 - [Tabula-py](https://github.com/chezou/tabula-py)
 
 ## Installation
-git clone https://github.com/yourusername/chat-with-pdf.git
+git clone https://github.com/rijutarajbhandari/Answer-PDF-and-Book-Appointment.git
 cd chat-with-pdf
 
 
