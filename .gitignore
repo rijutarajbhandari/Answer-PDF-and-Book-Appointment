@@ -1,0 +1,10 @@
+faiss_index/
+# Ignore .env files
+.env
+.env.*
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
