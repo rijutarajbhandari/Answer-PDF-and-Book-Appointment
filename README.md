@@ -22,7 +22,7 @@ This is a Streamlit-based application that allows users to upload PDF files, ask
 - [dateparser](https://github.com/scrapinghub/dateparser)
 - [Tabula-py](https://github.com/chezou/tabula-py)
 
-  ## Installation
+## Installation
 git clone https://github.com/yourusername/chat-with-pdf.git
 cd chat-with-pdf
 
@@ -38,13 +38,13 @@ GOOGLE_API_KEY=your_google_api_key_here
 streamlit run app.py
 
 ## How to Use
-1. Upload PDFs
+- Upload PDFs
    a.Go to the sidebar
    b.Click “Upload your PDF Files”
    c.Select one or more PDFs and click Submit & Process
    d.Text and tables are extracted and vectorized automatically
-2.Ask Questions
-3.Book an Appointment
+- Ask Questions
+- Book an Appointment
   a.Ask: “Schedule an appointment" or "Book an appointment in 3 days"
   b.Fill the form
   c.The chatbot confirms the extracted information
